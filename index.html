@@ -1,14 +1,50 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vividly</title>
     <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <header>
+        <a href="/" alt="Home" id="logo"><h1>Vividly</h1></a>
+        <nav id="nav-menu">
+            <ul>
+                <li>Home</li>
+                <li>Find a professionnal</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+        <a id="burger-menu"><i class="fa-solid fa-bars"></i></a>
+        <!-- <a class="btn">Benjamin</a> -->
+    </header>
+    <main>
+        <section id="search-by-location">
+            <article>
+                <h2>Find a professionnal near you</h2>
+                <p>Work to be done ? Our network offers you the best professionnals around you.</p>
+                <form>
+                    <!-- <label for="search">Search:</label> -->
+                    <!-- <input type="search" id="search" name="search"> -->
+                    <input type="search" id="search" name="search" placeholder="Choose a location">
+                    <!-- <button type="submit">Submit</button> -->
+                  </form>
+                <a class="btn">Discover the list</a>                
+            </article>
+        </section>
+        <section id="how-to"></section>
+        <section id="pro-list"></section>
+    </main>
+    <footer>
+        <h2>Vividly</h2>
+        <ul>
+            <li><a class="p-class">Suggest a restaurant</a></li>
+            <li><a class="p-class">Become partner</a></li>
+            <li><a class="p-class">Legal notice</a></li>
+            <li><a class="p-class">Contact</a></li>
+        </ul>
+    </footer>
 </body>
 </html>
