@@ -1,0 +1,140 @@
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:ital,wght@0,300;0,500;0,700;1,300;1,500;1,700&family=Shrikhand&display=swap');
+
+/* Général */
+
+*{
+    margin: 0;
+    scroll-behavior: smooth;
+    font-family: var(--main-font);
+}
+
+:root {
+    /** Colors **/
+    --black-grey-color: #252525;
+    --orange-color: #ff7800;
+    --yellow-color: #ffae00;
+    --black-color: #000;
+    --white-color: #fff;
+    /** Fonts **/
+    --main-font: "Roboto", sans-serif;
+    --secondary-font: "Inter", sans-serif;
+    --title-font: "Shrikhand", serif;
+}
+
+h1 {
+    font-family: var(--title-font);
+    color:var(--black-color);  
+}
+
+h2 {
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: 24px;
+    color: var(--black-color);
+}
+
+p {
+    font-family: var(--main-font);
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.p-class {
+    font-family: var(--main-font);
+    font-weight: 300;
+    font-size: 15px;
+}
+
+a {
+    font-family: var(--main-font);
+    font-weight: 500;
+    font-size: 15px;
+    text-decoration: none;
+    transition: all 0.3ms ease-in-out;
+}
+
+a:hover {
+    color:var(--orange-color);
+    transition: all 0.3ms ease-in-out;
+}
+
+ul {
+    font-family: var(--main-font);
+    font-weight: 300;
+    font-size: 15px;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+/* Components */
+
+.btn {
+    background: linear-gradient(198.58deg, #FF7800 15.56%, #FFAE00 100%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    height: 35px;
+    width: 127px;
+    top: 54px;
+    left: 98.95px;
+    /* text-align: center; */
+    padding: 10px 16px;
+}
+/* Header */
+
+header {
+    display: flex;
+    /* width: 354px; */
+    /* max-width: 100%; */
+    /* height: 74px;
+    justify-content: center; */
+}
+
+header #logo{
+    padding: 15px 0;
+    margin: 0 auto;
+}
+
+#nav-menu {
+    display: none;
+}
+
+#burger-menu{
+    top: 28px;
+    right: 14px;
+    margin: auto;
+}
+
+/* Main */
+
+/* Section 1: Search By Location*/
+
+#search-by-location{
+    /* gap: 20px; */
+    text-align: center;
+    padding: 30px 15px;
+    background-color: var(--yellow-color);
+    display: flex;
+    flex-direction: column;
+}
+
+/* Footer */
+
+footer {
+    background-color: var(--black-grey-color);
+    color: var(--white-color);
+    padding: 15px;
+}
+
+footer h2 {
+    font-family: var(--title-font);
+    color: var(--white-color);
+    font-weight: 400;
+    font-size: 24px;
+    padding-bottom: 25px;
+}
+
+footer>ul li{
+    gap: 12px;
+}
