@@ -180,5 +180,6 @@ footer h2 {
 }
 
 footer>ul li{
-    gap: 12px;
+    /* gap: 12px; */
+    margin: 12px 0;
 }
