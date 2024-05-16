@@ -47,6 +47,12 @@ p {
     font-size: 15px;
 }
 
+.p-two-class {
+    font-family: var(--main-font);
+    font-weight: 500;
+    font-size: 16px;
+}
+
 a {
     font-family: var(--main-font);
     font-weight: 500;
@@ -74,10 +80,10 @@ ul {
     background: linear-gradient(198.58deg, #FF7800 15.56%, #FFAE00 100%);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
-    height: 35px;
-    width: 127px;
-    top: 54px;
-    left: 98.95px;
+    /* height: 35px;
+    width: 127px; */
+    /* top: 54px;
+    left: 98.95px; */
     /* text-align: center; */
     padding: 10px 16px;
 }
@@ -117,6 +123,66 @@ header #logo{
     background-color: var(--yellow-color);
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+}
+
+form {
+    /* padding: 20px 15px; */
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+}
+
+input[type=search]{
+    border: none;
+    background-color: var(--yellow-color);
+    height: 18px;
+    max-width: 100%;
+    width: 308px;
+    border-radius: 20px;
+    padding: 20px 15px;
+}
+
+main #search-by-location {
+    /* margin: 20px 0;
+    padding: 20px 15px; */
+    /* margin: 20px 0 20px 0; */
+}
+
+
+main #search-by-location * {
+    /* padding: 10px 0 10px 0; */
+}
+
+#search-by-location h2 {
+    flex-wrap: nowrap;
+}
+
+main #search-by-location article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Section 2 : How to */
+
+#how-to ul li {
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
+}
+
+#how-to {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.figure {
+    background-color: var(--orange-color);
+    color: var(--white-color);
+    height: 25px;
+    width: 25px;
+    border-radius: 12.02px;
 }
 
 /* Footer */
