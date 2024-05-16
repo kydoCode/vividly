@@ -58,6 +58,7 @@ a {
     font-weight: 500;
     font-size: 15px;
     text-decoration: none;
+    /* color: var(--black-grey-color); */
     transition: all 0.3ms ease-in-out;
 }
 
@@ -81,6 +82,10 @@ ul {
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
     padding: 10px 16px;
+}
+
+.card {
+    color: var(--black-grey-color);
 }
 /* Header */
 
@@ -147,6 +152,50 @@ main #search-by-location article {
 
 #how-to ul li {
     box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
+    flex-direction: row;
+    display: flex;
+    position: relative;
+}
+
+#how-to ul li:nth-child(1)::before {
+    content: "1";
+    position: absolute;
+    left: -1px;
+    background-color: var(--orange-color);
+    border-radius: 12px;
+    padding: 16px 10px;
+}
+
+
+/* #how-to ul li:nth-child(2)::before {
+    content: '2';
+    position: absolute;
+    left: -1px;
+    background-color: var(--orange-color);
+    border-radius: 12px;
+    padding: 16px 10px;
+}
+
+#how-to ul li:nth-child(3)::before {
+    content: '3';
+    position: absolute;
+    left: -1px;
+    background-color: var(--orange-color);
+    border-radius: 12px;
+    padding: 16px 10px;
+} */
+
+#how-to ul li a {
+    /* padding: 20px; */
+    /* margin: 80px 20px; */
+    justify-content: center; /* left */
+    /* display: flex; */
+    flex-direction: column;
+}
+
+#how-to ul li span {
+    /* display: flex; */
+    flex-direction: column;
 }
 
 #how-to {
@@ -161,6 +210,17 @@ main #search-by-location article {
     height: 25px;
     width: 25px;
     border-radius: 12.02px;
+}
+
+/* Section 3: pro-list */
+
+#pro-list .label-new img {
+    width: 324px;
+    border-radius: 20px 20px 0 0;
+}
+
+#label-new form {
+    border-top-color: solid 1px var(--orange-color);
 }
 
 /* Footer */
