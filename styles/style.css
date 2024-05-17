@@ -214,13 +214,72 @@ main #search-by-location article {
 
 /* Section 3: pro-list */
 
+#pro-list {
+    background-color: var(--yellow-color);
+}
+
 #pro-list .label-new img {
-    width: 324px;
+    /* width: 324px; */
+    width: 305px;
     border-radius: 20px 20px 0 0;
 }
 
-#label-new form {
-    border-top-color: solid 1px var(--orange-color);
+.label-new {
+    border-radius: 20px 20px 20px 20px;
+    background-color: var(--white-color);
+}
+
+.label-new section {
+    padding: 14px 10px 12px 10px;
+}
+
+.label-new a {
+    color:var(--black-grey-color);
+}
+
+.label-new .icon-label {
+    /* border-top-color: solid 1px var(--orange-color); */
+    border-top: solid 1px var(--orange-color);
+    padding: 13px 0 12px 0;
+}
+
+.label-new label {
+    display: flex;
+    justify-content: space-between;
+}
+
+.label-new .p-class {
+    padding-bottom: 12px;
+}
+
+.icon-toggle {
+    display: none;
+}
+
+.icon-label {
+    /* font-size: 2rem; */
+    cursor: pointer;
+    /* gap */
+}
+
+.icon-label .fa-regular {
+    display: inline-block;
+}
+
+.icon-toggle:checked + .icon-label .fa-regular {
+    display: none;
+}
+
+.icon-toggle:checked + .icon-label .fa-solid {
+    display: inline-block;
+}
+
+.icon-label .fa-solid {
+    display: none;
+}
+
+.new-mark {
+    
 }
 
 /* Footer */
