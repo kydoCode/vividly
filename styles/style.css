@@ -33,6 +33,7 @@ h2 {
     font-weight: 700;
     font-size: 24px;
     color: var(--black-color);
+    padding: 30px 0;
 }
 
 p {
@@ -60,6 +61,8 @@ a {
     text-decoration: none;
     /* color: var(--black-grey-color); */
     transition: all 0.3ms ease-in-out;
+    cursor: pointer;
+    color:var(--black-color);
 }
 
 a:hover {
@@ -131,7 +134,7 @@ input[type=search]{
     background-color: var(--yellow-color);
     height: 18px;
     max-width: 100%;
-    width: 308px;
+    width: 275px;
     border-radius: 20px;
     padding: 20px 15px;
 }
@@ -216,17 +219,31 @@ main #search-by-location article {
 
 #pro-list {
     background-color: var(--yellow-color);
+    padding: 30px 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
+
+
+/* #pro-list .label-new img {
+    /* width: 324px; */
+    /* width: 275px;
+    border-radius: 20px 20px 0 0;
+} */ 
 
 #pro-list .label-new img {
     /* width: 324px; */
-    width: 305px;
+    /* width: 275px; */
+    width: 100%;
+    height: auto;
     border-radius: 20px 20px 0 0;
 }
 
 .label-new {
     border-radius: 20px 20px 20px 20px;
     background-color: var(--white-color);
+    /* position: relative; */
 }
 
 .label-new section {
@@ -279,7 +296,13 @@ main #search-by-location article {
 }
 
 .new-mark {
-    
+    /* position: absolute; */
+}
+
+#pro-list>a {
+    width: 103.75px;
+    text-align: center;
+    margin: auto;
 }
 
 /* Footer */
@@ -301,4 +324,8 @@ footer h2 {
 footer>ul li{
     /* gap: 12px; */
     margin: 12px 0;
+}
+
+footer a {
+    color:var(--white-color);
 }
