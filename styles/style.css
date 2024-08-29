@@ -297,7 +297,24 @@ main #search-by-location article {
 
 .new-mark {
     /* position: absolute; */
+    position: relative;
+    background-color: var(--orange-color);
+    color: var(--white-color);
+    font-family: var(--title-font);
+    width: 74.41px;
+    /* height: 29px; */
+    rotate: -43deg;
+    text-align: center;
+    vertical-align: middle;
+    left: -7.89px;
+    /* left: 7.89px; */
+    top: 45.27px;
+    /* top: -2.71px; */
+    /* margin: auto 0; */
+    /* padding: 4.09px 0.73px 10.97px 15px; */
+    padding-top: 4.09px;
 }
+
 
 #pro-list>a {
     width: 103.75px;
