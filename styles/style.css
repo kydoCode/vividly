@@ -296,8 +296,7 @@ main #search-by-location article {
 }
 
 .new-mark {
-    /* position: absolute; */
-    position: relative;
+    position: absolute;
     background-color: var(--orange-color);
     color: var(--white-color);
     font-family: var(--title-font);
@@ -306,9 +305,8 @@ main #search-by-location article {
     rotate: -43deg;
     text-align: center;
     vertical-align: middle;
-    left: -7.89px;
-    /* left: 7.89px; */
-    top: 45.27px;
+    left: 0;
+    top: 0;
     /* top: -2.71px; */
     /* margin: auto 0; */
     /* padding: 4.09px 0.73px 10.97px 15px; */
