@@ -154,20 +154,41 @@ main #search-by-location article {
 /* Section 2 : How to */
 
 #how-to ul li {
-    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
+    /* box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15); */
     flex-direction: row;
     display: flex;
     position: relative;
+    align-items: center;
+    gap: 10px;
+    padding: 15px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+    margin-bottom: 10px;
 }
 
-#how-to ul li:nth-child(1)::before {
+#how-to ul li::before {
+    content: attr(data-step);
+    background-color: var(--orange-color);
+    color: var(--white-color);
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: -35px;
+}
+
+/* #how-to ul li:nth-child(1)::before {
     content: "1";
     position: absolute;
     left: -1px;
     background-color: var(--orange-color);
     border-radius: 12px;
     padding: 16px 10px;
-}
+} */
 
 
 /* #how-to ul li:nth-child(2)::before {
