@@ -264,6 +264,7 @@ main #search-by-location article {
     border-radius: 20px 20px 20px 20px;
     background-color: var(--white-color);
     position: relative; /* Pcd79 */
+    padding: 0; /* Pa015 */
 }
 
 .label-new section {
