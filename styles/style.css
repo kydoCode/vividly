@@ -37,7 +37,7 @@ h2 {
 }
 
 p {
-    font-family: var(--main-font);
+    font-family: var (--main-font);
     font-weight: 300;
     font-size: 15px;
 }
@@ -263,7 +263,7 @@ main #search-by-location article {
 .label-new {
     border-radius: 20px 20px 20px 20px;
     background-color: var(--white-color);
-    /* position: relative; */
+    position: relative; /* Pcd79 */
 }
 
 .label-new section {
@@ -363,4 +363,13 @@ footer>ul li{
 
 footer a {
     color:var(--white-color);
+}
+
+.cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
